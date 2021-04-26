@@ -20,6 +20,7 @@
 // @connect      dict.youdao.com
 // @connect      fanyi.baidu.com
 // @connect      shared.ydstatic.com
+// @connect      tmt.tencentcloudapi.com
 // @require      https://cdn.jsdelivr.net/npm/jquery@2.2.3/dist/jquery.min.js
 // @require      https://cdn.jsdelivr.net/npm/jquery.md5@1.0.2/index.min.js
 // @require      https://cdn.jsdelivr.net/gh/zyufstudio/jQuery@3a09ff54b33fc2ae489b5083174698b3fa83f4a7/jPopBox/dist/jPopBox.min.js

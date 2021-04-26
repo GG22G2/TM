@@ -1,6 +1,7 @@
 import {googleTrans}from "./googleTrans"
 import {youdaoTrans} from "./youdaoTrans/youdaoTrans"
 import {baiduTrans} from "./baiduTrans/baiduTrans"
+import {tencentTrans} from "./tencentTrans/tencentTrans"
 
 export var Trans={
     transEngineList:{},         //翻译引擎实例列表
@@ -65,6 +66,7 @@ export var Trans={
         transEngineListObj[googleTrans.code]=googleTrans;
         transEngineListObj[youdaoTrans.code]=youdaoTrans;
         transEngineListObj[baiduTrans.code]=baiduTrans;
+        transEngineListObj[tencentTrans.code]=tencentTrans;
         this.transEngineList=transEngineListObj;
         for (var key in this.transEngineList) {
             if (this.transEngineList.hasOwnProperty(key) && this.transEngineList[key].hasOwnProperty("init")) {
